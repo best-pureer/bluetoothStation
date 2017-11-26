@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_right.png",
+        "source": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_right.png"
+    },
+    {
+        "merged": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_bottom.png",
+        "source": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_bottom.png"
+    },
+    {
+        "merged": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_right.png",
+        "source": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_right.png"
+    },
+    {
+        "merged": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_left.png",
+        "source": "E:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_left.png"
+    },
+    {
+        "merged": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_bottom.png",
+        "source": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_bottom.png"
+    },
+    {
+        "merged": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shadow_left.png",
+        "source": "D:\\android\\BluetoothStation\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_left.png"
+    }
+]

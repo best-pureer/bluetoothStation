@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">蓝牙工作站</string>
+    <string name="键值设置">键值设置</string>
+    <string name="界面设置">切换界面</string>
+    <string name="使用说明">使用说明</string>
+    <string name="关于软件">关于软件</string>
+    <string name="双人联机">双人联机</string>
+    <string name="emptyText">请点击右上角扫描按钮，扫描蓝牙设备</string>
+    <string name="接收switch">接收开关</string>
+    <string name="EditTextHint">发送区,点击左侧按钮选择发送方式</string>
+    <string name="接收区提示">接收区\n</string>
+    <string name="value区域提示">键值</string>
+    <string name="name区域提示">键名</string>
+    <string name="device提示">未连接</string>
+    <string name="title_activity_settings">键值设置</string>
+    <string name="madeBy">huangzheng,570437459@qq.com</string>
+    <string name="thanks">同济大学浙江学院、Mars</string>
+
+
+</resources>

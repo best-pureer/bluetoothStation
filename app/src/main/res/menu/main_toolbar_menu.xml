@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="@string/键值设置"
+        android:id="@+id/value"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/界面设置"
+        android:id="@+id/ui"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/使用说明"
+        android:id="@+id/howUse"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/关于软件"
+        android:id="@+id/about"
+        app:showAsAction="never"/>
+</menu>

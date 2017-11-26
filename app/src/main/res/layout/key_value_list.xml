@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前进键名:" />
+
+        <EditText
+            android:id="@+id/nameUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="前进"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:text="A"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后退键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="后退"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp"
+            />
+
+        <EditText
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionNext"
+            android:text="B"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左转键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="左转"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:text="C"
+            android:imeOptions="actionNext"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="右转键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:imeOptions="actionNext"
+            android:text="右转"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="D"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:imeOptions="actionNext"
+            android:text="停止"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="F"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键01键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="01"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/valueButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionNext"
+            android:text="1"
+            android:textSize="15sp" />
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键02键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="02"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/valueButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="2"
+            android:textSize="15sp" />
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键03键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="03"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/valueButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionNext"
+            android:text="3"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键04键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="04"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/valueButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionNext"
+            android:text="4"
+            android:textSize="15sp" />
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键05键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="05"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/valueButton05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="5"
+            android:textSize="15sp" />
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="键06键名:" />
+
+        <EditText
+            android:selectAllOnFocus="true"
+            android:id="@+id/nameButton06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:text="06"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="值:"
+            android:layout_marginStart="20dp"
+             />
+
+        <EditText
+            android:id="@+id/valueButton06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:text="6"
+            android:textSize="15sp" />
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抬手发“F”"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

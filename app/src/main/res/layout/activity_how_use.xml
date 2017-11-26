@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hz.bluetoothstation.HowUseActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/howUseToolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorToolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/deviceToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howUseToolbar">
+
+        <TextView
+            android:textColor="@color/colorToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一、如何搜索设备？"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.点击主界面左上角的表情图标或旁边的文字，进入搜索界面。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.点击搜索界面右上角的“扫描”即可进入搜索状态。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="@color/colorToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="二、如何连接、断开设备？"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.点击列表中的设备，等待提示“连接成功”，即可完成。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.点击搜索界面右上角的“断开”，等待提示“连接断开”，即可完成。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="@color/colorToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="三、按键介绍"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.各按键的默认键值键名请到键值设置的“默认方案”查看。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.简易界面的键值键名不可更改，为默认键值键名。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.键值设置的删除方案功能暂时无效，如果想删除，请卸载APP重装，但会删除全部自定义方案。"
+            android:textSize="15sp" />
+
+        <TextView
+            android:textColor="@color/colorToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="四、接收区介绍"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.长按接收区可操作接收区的数据。"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.为提升体验，接收区只能以字符型显示。"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="扫描"
+        android:id="@+id/discovery"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="断开"
+        android:id="@+id/close"
+        app:showAsAction="ifRoom" />
+
+</menu>
