@@ -13,7 +13,7 @@
         android:label="Tests for me.imid.swipebacklayout.lib.test"
         android:targetPackage="me.imid.swipebacklayout.lib.test" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
